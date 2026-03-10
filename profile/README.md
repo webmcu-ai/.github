@@ -66,9 +66,11 @@ to make every step of the ML pipeline visible and modifiable.
 
 | Repo | Description | Status |
 |------|-------------|--------|
+
+<!--
 | [on-device-vision-training](.) | Complete CNN train/infer on ESP32-S3. WCCI 2026 paper code. | 🟢 Active |
 | [browser-edge-vision-training](.) | TorchJS webpage + WebSerial firmware. Paper 2 code. | 🟡 In Progress |
-
+-->
 <!--
 | [on-device-audio-training](.)  | Sound classification on MCU. | 🔵 Planned |
 | [on-device-motion-training](.) | IMU/gesture classification on MCU. | 🔵 Planned |
