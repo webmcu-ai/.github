@@ -1,4 +1,4 @@
-# WebMCU-AI Research Lab
+# WebMCU-AI Independent Research Lab
 
 > **Bridging browser-based WebAI and microcontroller TinyML 
 > through transparent, single-file implementations.**
