@@ -11,11 +11,11 @@ This organization collects my open-source work at the intersection of **TinyML**
 ## 📄 Papers (webmcu-ai Series)
 
 **Paper 1 — On-Device Vision Training, Deployment, and Inference on a Thumb-Sized Microcontroller**  
-Complete CNN backpropagation on the ESP32-S3: 1,750 lines of C++, no cloud, no external ML dependencies.  
+Complete CNN backpropagation on the ESP32-S3: 1,680 lines of C++, no cloud, no external ML dependencies.  
 → [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) · arXiv April 2026
 
 **Paper 2 — WebSerial Vision Training for Microcontrollers**  
-A single-file browser companion to Paper 1: firmware flash, image capture, TensorFlow.js training, weight export, and live activation heatmaps — all from one HTML file over WebSerial.  
+A single-file browser companion to Paper 1: index.html, firmware flash, firmware.ino, image capture, TensorFlow.js training, weight export, and live activation heatmaps — all from one HTML file over WebSerial.  
 → [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) · arXiv April 2026
 
 **Paper 3 — On-Device Audio Classification** *(planned)*  
