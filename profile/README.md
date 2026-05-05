@@ -16,7 +16,9 @@ Complete CNN backpropagation on the ESP32-S3: 1,680 lines of C++, no cloud, no e
 
 **Paper 2 — WebSerial Vision Training for Microcontrollers**  
 A single-file browser companion to Paper 1: index.html, firmware flash, firmware.ino, image capture, TensorFlow.js training, weight export, and live activation heatmaps — all from one HTML file over WebSerial.  
-→ [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) · arXiv April 2026
+→ [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) · arXiv April 2026. 
+
+Most important is the actively being developed webpage that conncets with the device at [webmcu-vision-web/index.htm](https://webmcu-ai.github.io/webmcu-vision-web/index.htm)
 
 **Paper 3 — On-Device Audio Classification** *(planned)*  
 **Paper 4 — On-Device IMU / Gesture Recognition** *(planned)*
