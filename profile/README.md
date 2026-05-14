@@ -40,9 +40,9 @@ Most important is the actively being developed webpage that conncets with the de
 ## 🔧 Hardware
 
 The primary platform is the **Seeed Studio XIAO ESP32-S3 Sense**, available as:
-- the bare ESP32-S3 chip (~$8 USD)
-- the XIAO ESP32-S3 Sense board with OV2640 camera (~$15 USD)
-- the full XIAO ML Kit with OLED display and IMU (~$39 USD)
+- the bare [XIAO ESP32-S3](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Pre-Soldered-p-6334.html) module ($8.49 USD full replacement only, does not run the above)
+- the [XIAO ESP32-S3 Sense](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Sense-Pre-Soldered-p-6335.html) board with OV2640 camera ($14.90 USD, runs only with serial monitor)
+- the full [XIAO ML Kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) with OLED display and IMU ($38.90 USD with cables, sd card etc, $22 USD just for the boards, runs everything)
 
 All three run the same firmware. The OLED and IMU degrade gracefully if the expansion board is absent. The price point is intentional — the whole system should fit in a classroom budget.
 
