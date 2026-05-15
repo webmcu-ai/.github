@@ -30,7 +30,7 @@ Most important is the actively being developed webpage that conncets with the de
 | Repo | What it does |
 |------|-------------|
 | [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) | Complete on-device CNN training and inference on ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference. Uses a single `.ino` file, MIT licensed. |
-| [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | Browser companion: single `index.html`, no install, WebSerial + TensorFlow.js. |
+| [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | Browser companion: single `index.html`, no install, WebSerial + TensorFlow.js. Working demo webpage at [https://webmcu-ai.github.io/webmcu-vision-web/index.html](https://webmcu-ai.github.io/webmcu-vision-web/index.html)|
 |[on-device-fomo](https://github.com/webmcu-ai/on-device-fomo)|on-device Vision FOMO (Faster Objects More Objects) Object detection with x,y centroid location capable of multiple detections. Uses the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) or xiao esp32s3 sense for serial monitor only |
 |[on-device-regression](https://github.com/webmcu-ai/on-device-regression) | on-device Vision Regression (each trained object class is an integer number). Regression allows distance or size measurement based on how big or small a single object is from the camera. Now has an extrapolation linear equation. Uses the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) or xiao esp32s3 sense for serial monitor only |
 
