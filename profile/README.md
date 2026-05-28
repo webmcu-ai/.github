@@ -4,7 +4,7 @@
 
 Hi, I'm [Jeremy Ellis](https://github.com/hpssjellis) — a high school Computing, Machine Learning and Robotics teacher in British Columbia, Canada, with about 35 years in the classroom and a deep interest in making AI genuinely understandable. Not black-box AI. Not cloud-dependent AI. The kind where you can read every weight, every gradient, every line of code, and know exactly what the machine is doing and why.
 
-This organization collects my open-source work at the intersection of **TinyML** (machine learning on microcontrollers) and **WebAI** (machine learning in the browser via TensorFlow.js and the WebSerial API). The hardware is cheap enough for a classroom. The code is single-file and dependency-free. The goal is that a student — or a researcher in a school with unreliable internet — can train and deploy a working vision classifier in under ten minutes without sending any data to the cloud.
+This organization collects my open-source work at the intersection of **TinyML** (machine learning on microcontrollers) and **WebAI** (machine learning in the browser via TensorFlow.js and the WebSerial API). The hardware is cheap enough for a classroom. The code is single-file and dependency-free. The goal is that a student — or a researcher in a gloabl south university with unreliable internet — can train and deploy a working vision classifier in under ten minutes without sending any data to the cloud.
 
 ---
 
@@ -12,11 +12,11 @@ This organization collects my open-source work at the intersection of **TinyML**
 
 **Paper 1 — On-Device Vision Training, Deployment, and Inference on a Thumb-Sized Microcontroller**  
 Complete CNN backpropagation on the ESP32-S3: 1,680 lines of C++, no cloud, no external ML dependencies.  
-→ [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) · [arXiv April 2604.23012](https://arxiv.org/abs/2604.23012)
+Github → [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai).Paper 1 →  [arXiv April 2604.23012](https://arxiv.org/abs/2604.23012)
 
 **Paper 2 — WebSerial Vision Training for Microcontrollers**  
 A single-file browser companion to Paper 1: index.html, firmware flash, firmware.ino, image capture, TensorFlow.js training, weight export, and live activation heatmaps — all from one HTML file over WebSerial.  
-→ [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) · [arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) 
+Github → [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web). Paper 2 → [arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) 
 
 Most important is the actively being developed webpage that conncets with the device at [webmcu-vision-web/index.htm](https://webmcu-ai.github.io/webmcu-vision-web/index.htm)
 
