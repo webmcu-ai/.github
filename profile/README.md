@@ -25,21 +25,36 @@ Most important is the actively being developed webpage that conncets with the de
 
 ---
 
-## 🛠 Repositories
+## Resources
+
+
+
+
+
+For offline LLM using Gemma4 PWA [https://github.com/webmcu-ai/local-gemma4-pwa](https://github.com/webmcu-ai/local-gemma4-pwa)
+
+The Maker 100 Leaders Robotics [https://github.com/hpssjellis/maker100-leaders-robotics](https://github.com/hpssjellis/maker100-leaders-robotics)
+
+The maker100 Curriculum [https://github.com/hpssjellis/maker100-curriculum](https://github.com/hpssjellis/maker100-curriculum)
+
+All on-device firmware for offline flashing [https://github.com/webmcu-ai/download-for-offline-webmcu-ai](https://github.com/webmcu-ai/download-for-offline-webmcu-ai) for when using any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) to flash all the code without the Arduino IDE or PlatformIO.
+
 
 #### All use the XIAO ESP32-S3 for serial monitor only or use the [$15-40 USD xiaoML kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) for full on-device training and inference.
 
-| Repo | What it does |
-|------|-------------|
-| [on-device-vision-ai](https://github.com/webmcu-ai/on-device-vision-ai) | Complete on-device CNN training and inference. Uses a single `.ino` file, MIT licensed. |
-| [webmcu-vision-web](https://github.com/webmcu-ai/webmcu-vision-web) | Browser companion: single `index.html`, no install, WebSerial + TensorFlow.js. Working demo webpage at [https://webmcu-ai.github.io/webmcu-vision-web/index.html](https://webmcu-ai.github.io/webmcu-vision-web/index.html)|
-|[on-device-fomo](https://github.com/webmcu-ai/on-device-fomo)|on-device Vision FOMO (Faster Objects More Objects) Object detection with x,y centroid location capable of multiple detections.  |
-|[on-device-regression](https://github.com/webmcu-ai/on-device-regression) | on-device Vision Regression (each trained object class is an integer number). Regression allows distance or size measurement based on how big or small a single object is from the camera. Now has an extrapolation linear equation. |
-| [on-device-vision-anomaly](https://github.com/webmcu-ai/on-device-vision-anomaly)| on-device vision anomaly |
-| [on-device-motion](https://github.com/webmcu-ai/on-device-motion)| on-device motion acceleration in x, y, z using the IMU. Collects 3x40 samples of x,y,z accelereration data, but could be any combination of sensor data up to 120 data points, so 2x60, 5x24 etc. Basic start of a sensor fusion model.|
-| [on-device-sound](https://github.com/webmcu-ai/on-device-sound) | on-device sound machine learning model using FFT. Install the firmware on the xiao esp32s3 sense which has a microphone |
 
 
+
+## Complete webMCU-AI table
+
+| ML | on-device firmware | on-device github | web-firmware | web-github | web-html-online | web-pwa-offline |
+|:---|:---|:---|:---|:---|:---|:---|
+| Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |
+| Vision FOMO object x, y detection | [on-device firmware](https://github.com/webmcu-ai/on-device-fomo/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-fomo) | | | | |
+| Vision Regression | [on-device firmware](https://github.com/webmcu-ai/on-device-regression/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-regression) | | | | |
+| Vision Anomaly | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-vision-anomaly) | | | | |
+| Motion X, Y, Z Acceleration | [on-device firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-motion) | | | | |
+| Sound / Wake Word(s) Detection | [on-device firmware](https://github.com/webmcu-ai/on-device-sound/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-sound) | | | | |
 ---
 
 ## 🔧 Hardware
@@ -50,6 +65,10 @@ The primary platform is the **Seeed Studio XIAO ESP32-S3 Sense**, available as:
 - the full [XIAO ML Kit](https://www.seeedstudio.com/The-XIAOML-Kit.html) with OLED display and IMU ($38.90 USD with cables, sd card etc, $22 USD just for the boards, runs everything)
 
 All three run the same firmware. The OLED and IMU degrade gracefully if the expansion board is absent. The price point is intentional — the whole system should fit in a classroom budget.
+
+<img width="800"  alt="image02-xiao" src="https://github.com/user-attachments/assets/96d9cd35-9808-4ca8-aab4-f28a21e5fa42" />
+
+
 
 ---
 
