@@ -29,9 +29,11 @@ Most important is the actively being developed webpage that conncets with the de
 
 
 
+For offline LLM using Gemma4:E2B PWA, first time 2 GB install, [https://webmcu-ai.github.io/local-gemma4-pwa/index.html](https://webmcu-ai.github.io/local-gemma4-pwa/index.html)
 
-
-For offline LLM using Gemma4 PWA, first time 2 GB install, [https://webmcu-ai.github.io/local-gemma4-pwa/index.html](https://webmcu-ai.github.io/local-gemma4-pwa/index.html)
+For offline LLM using Gemma4:12B PWA, first time 7 GB install, must also install [ollama.com](https://ollama.com/) and run this command for windows 
+``` setx OLLAMA_ORIGINS "https://webmcu-ai.github.io"  ```
+[https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html](https://webmcu-ai.github.io/ollama-gemma4-12b-pwa/index.html)
 
 The Maker 100 Leaders Robotics [https://github.com/hpssjellis/maker100-leaders-robotics](https://github.com/hpssjellis/maker100-leaders-robotics)
 
