@@ -62,6 +62,10 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 | | | | | | | |
 | Vision Sound | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-sound) | | | | |
 
+Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone motion sensor. 
+
+[https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33)
+
 
 
 ---
