@@ -1,4 +1,4 @@
-g# webmcu-ai
+# webmcu-ai
 
 > **TinyML and WebAI — from a $15 microcontroller to a Chrome browser, no cloud required.**
 
@@ -57,10 +57,10 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 
 # Flagship WebSerial and on-Device Vision
 
-| ML | web-firmware | web-github | web-html-online | web-pwa-offline |
-|:---|:---|:---|:---|:---|
-| Web Vision Classification  | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) |
-
+| ML | Firmware | Github | web-html-online | web-pwa-offline | Paper |
+|:---|:---|:---|:---|:---|:---|
+| Web and On Device webSerial Vision Classification  | [web-firmware](https://github.com/webmcu-ai/webmcu-vision-web/blob/main/firmware.ino) | [web-github](https://github.com/webmcu-ai/webmcu-vision-web) | [web-html-online](https://webmcu-ai.github.io/webmcu-vision-web/index.html) | [web-pwa-offline](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) | Paper 2 <br>[arXiv April 2604.22834](https://arxiv.org/abs/2604.22834) |
+| On-Device Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | | | Paper 1 <br>[arXiv April 2604.23012](https://arxiv.org/abs/2604.23012) |
 <br>
 <hr>
 
@@ -70,14 +70,14 @@ any of the [web-PWA](https://webmcu-ai.github.io/webmcu-vision-pwa/index.html) t
 
 | ML | on-device firmware | on-device github | Simple Web Training (Coming Soon) |
 |:---|:---|:---|:---|
-| Vision Classification | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-ai/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-ai) | |
-| Vision FOMO object x, y detection | [on-device firmware](https://github.com/webmcu-ai/on-device-fomo/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-fomo) | |
-| Vision Regression | [on-device firmware](https://github.com/webmcu-ai/on-device-regression/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-regression) | |
-| Vision Anomaly | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/firmware.ino) | [on-device github](https://github.com/webmcu-ai/on-device-vision-anomaly) | |
-| Sound / Wake Word(s) Detection | [on-device firmware](https://github.com/webmcu-ai/on-device-sound/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-sound) | | 
-| Motion X, Y, Z Acceleration | [on-device firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-motion) | |
-| Motion Anomaly | [on-device firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-motion) | |
-| Vision Sound Dual Core | [on-device firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[on-device github](https://github.com/webmcu-ai/on-device-vision-sound) | |
+| Vision Classification | [on-device vision classification firmware](https://github.com/webmcu-ai/on-device-vision-and-web/blob/main/firmware.ino) |[on-device vision classification github](https://github.com/webmcu-ai/on-device-vision-and-web) | |
+| Vision FOMO object x, y detection | [on-device fomo firmware](https://github.com/webmcu-ai/on-device-fomo/blob/main/firmware.ino) | [on-device fomo github](https://github.com/webmcu-ai/on-device-fomo) | |
+| Vision Regression | [on-device vision regression firmware](https://github.com/webmcu-ai/on-device-regression/blob/main/firmware.ino) | [on-device vision regression github](https://github.com/webmcu-ai/on-device-regression) | |
+| Vision Anomaly | [on-device vision anomaly firmware](https://github.com/webmcu-ai/on-device-vision-anomaly/blob/main/firmware.ino) | [on-device vision anomaly github](https://github.com/webmcu-ai/on-device-vision-anomaly) | |
+| Sound / Wake Word(s) Detection | [on-device sound firmware](https://github.com/webmcu-ai/on-device-sound/blob/main/firmware.ino) |[on-device sound github](https://github.com/webmcu-ai/on-device-sound) | | 
+| Motion X, Y, Z Acceleration | [on-device motion classification firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[on-device motion classification github](https://github.com/webmcu-ai/on-device-motion) | |
+| Motion Anomaly | [on-device motion anomaly firmware](https://github.com/webmcu-ai/on-device-motion/blob/main/firmware.ino) |[on-device motion anomaly github](https://github.com/webmcu-ai/on-device-motion) | |
+| Vision Sound Dual Core | [on-device dual core vision sound firmware](https://github.com/webmcu-ai/on-device-vision-sound/blob/main/firmware.ino) |[on-device dual core vision sound github](https://github.com/webmcu-ai/on-device-vision-sound) | |
 
 
 <br>
@@ -88,7 +88,7 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 
 | ML | on-device firmware Xiao ML Kit | on-device firmware Nano33BleSense | on-device github | webBLE |
 |:---|:---|:---|:---|:---|
-|BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [index.html here](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
+|BLE Sensor Fusion XIAO and Nano33BleSense| [firmware-XIAO-ML-Kit](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/esp32-v15.ino) | [firmware-nano33bleSense](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33/blob/main/nano33-v15.ino)  | [https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33](https://github.com/webmcu-ai/on-device-ble-sensor-fusion-nano33) | [Web Demo](https://webmcu-ai.github.io/on-device-ble-sensor-fusion-nano33/index.html) | 
 
 <br>
 <hr>
@@ -97,9 +97,9 @@ Latest BLE work with the XIAO esp32s3 and the nan033BleSense and your cell phone
 
 | ML | on-device firmware | on-device github | web Training Assist |
 |:---|:---|:---|:---|
-| SNN and ANN Motion | [firmware.ino](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/on-device-motion-snn) | [motion SNN index.html here](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-vision-snn) | [Vision SNN index.html here](https://webmcu-ai.github.io/web-vision-snn/) |
-| SNN and ANN Video | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN index.html here](https://webmcu-ai.github.io/web-video-snn/index.html)|
+| SNN and ANN Motion | [firmware.ino](https://github.com/webmcu-ai/on-device-motion-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/on-device-motion-snn) | [motion SNN Web Demo](https://webmcu-ai.github.io/web-vision-snn/) |
+| SNN and ANN Vision| [firmware.ino](https://github.com/webmcu-ai/web-vision-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-vision-snn) | [Vision SNN Web Demo](https://webmcu-ai.github.io/web-vision-snn/) |
+| SNN and ANN Video (Multi-image) | [firmware.ino](https://github.com/webmcu-ai/web-video-snn/blob/main/firmware.ino) | [Github](https://github.com/webmcu-ai/web-video-snn) | [Video SNN Web Demo](https://webmcu-ai.github.io/web-video-snn/index.html)|
 
 <br>
 <hr>
